@@ -14,7 +14,7 @@ def SelectSportId(dbConn, SportName):
 
     SportId = cur.fetchone()
 
-    cur.close()
+    cur.close
 
     if SportId is not None:
         return SportId[0]
